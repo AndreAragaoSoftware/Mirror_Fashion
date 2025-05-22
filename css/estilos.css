@@ -136,5 +136,51 @@ h1 {
     background-color: #dcdcf5;
 }
 
+footer {
+    clear: both;
+    background-image: url(../img/fundo-rodape.png);
+    padding: 20px 0;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    /*Tamanho da Imagem*/
+    height: 32px;
+    width: 32px;
+
+    /* Imagem replacement*/
+    display: block;
+    text-indent: -99999px;
+}
+
+.social a[href*="facebook"] {
+    background-image: url(../img/facebook.png);
+}
+
+
+.social a[href*="x.com"] {
+    background-image: url(../img/twitter.png);
+}
+
+
+.social a[href*="plus.google"] {
+    background-image: url(../img/googleplus.png);
+}
+
+
 
 
